@@ -1,0 +1,23 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    width:800px;
+    font-size:14px;
+    padding:10px;
+    background-color:silver;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    }
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    }
+section.section1 {background-color: #FFFFCC; visibility: hidden;}
+section.section2 {background-color: #DCDCDC; visibility: hidden;}
