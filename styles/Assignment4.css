@@ -6,10 +6,12 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    width:800px;
+    width:600px;
     font-size:14px;
     padding:10px;
     background-color:silver;
+    padding-bottom:80px;
+
 }
 h1 {
     font-family: sans-serif;
@@ -19,5 +21,29 @@ h2 {
     font-family: sans-serif;
     text-align: center;
     }
-section.section1 {background-color: #FFFFCC; visibility: hidden;}
-section.section2 {background-color: #DCDCDC; visibility: hidden;}
+#demopicture1 {
+    padding: 5px;
+
+    }
+#demopicture2 {
+padding: 5px;
+float:right;
+}
+
+section.section1 {background-color: #FFFFCC; visibility: hidden;position: absolute; width:580px;padding-left:20px;}
+section.section2 {background-color: #DCDCDC; visibility: hidden;position: absolute; width:580px;padding-left:20px;}
+ol {
+    display: block;
+    list-style-type: decimal;
+
+}
+
+footer {
+clear:both;
+height:50px;
+width:600px;
+/*position:fixed;*/
+bottom: 0px;
+text-align: center;
+font-style:italic;
+}
